@@ -51,6 +51,7 @@ p{
 img {
     height:300px;
     display:block;
+    margin:auto;
 }
 .ui-infobar {
     display:none!important;
