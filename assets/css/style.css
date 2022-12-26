@@ -1,0 +1,86 @@
+/*Adaptation d'un code CSS proposé par Jack Cranston (https://codepen.io/jackcranston/pen/pWpZjm)*/
+
+body{
+    font-family: 'Homemade Apple', cursive;
+    font-size:20px;
+    background:url('https://images.pexels.com/photos/172277/pexels-photo-172277.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260');
+    background-size:2700px;
+    background-repeat:repeat;
+    color:#000;
+}
+ul{
+    margin:auto;
+    padding:0;
+    text-align:center;
+}
+li{
+    text-align:center;
+    display:inline-block;
+    list-style:none;
+    position:relative;
+    border:solid 12px #fff;
+    background:#fff;
+    box-shadow:0 0 15px 0px #555;
+    transition:all 1s ease;
+    -o-transition:all 1s ease;
+    -moz-transition:all 1s ease;
+    -webkit-transition:all 1s ease;
+    top:50px;
+    opacity:0.8;
+    margin:20px 
+}
+li:hover{
+    top:0px;
+    opacity:1;
+}
+li:nth-child(4n){
+    transform:rotate(-5deg);
+}
+li:nth-child(4n+1){
+    transform:rotate(0deg);
+}
+li:nth-child(4n+2){
+    transform:rotate(-8deg)!important;
+}
+li:nth-child(4n+3){
+    transform:rotate(8deg)!important;
+}
+p{
+    margin:-15px 0 0 0;
+}
+img {
+    height:300px;
+}
+.ui-infobar {
+    display:none!important;
+}
+.ui-content .ui-infobar {
+   display:inherit!important;   
+}
+.toc {
+    display:none!important;
+}
+h1:nth-of-type(1) {
+    display: none;
+}
+h1 {
+    font-size: 4em;
+    text-align: center;
+    color: #DDD;
+    font-weight: bold!important;
+    border:none;
+}
+h2 {
+   font-size: 2.5em;
+   border-bottom: none;
+   color: #ddd;
+   text-align: center;
+   margin-top:5em;
+}
+h1+h2 {
+   margin-top:2.5em!important;
+}
+/* .markdown-body {
+   max-width:100%!important;        
+   width:100%;
+} */
