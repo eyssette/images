@@ -1,7 +1,7 @@
 /*Adaptation d'un code CSS proposé par Jack Cranston (https://codepen.io/jackcranston/pen/pWpZjm)*/
 
 body{
-    font-family: 'Homemade Apple', cursive;
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
     font-size:20px;
     background:url('https://images.pexels.com/photos/172277/pexels-photo-172277.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260');
     background-size:2700px;
@@ -50,6 +50,7 @@ p{
 }
 img {
     height:300px;
+    display:block;
 }
 .ui-infobar {
     display:none!important;
