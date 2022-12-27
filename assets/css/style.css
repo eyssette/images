@@ -53,12 +53,6 @@ img {
     display:block;
     margin:auto;
 }
-.ui-infobar {
-    display:none!important;
-}
-.ui-content .ui-infobar {
-   display:inherit!important;   
-}
 .toc {
     display:none!important;
 }
